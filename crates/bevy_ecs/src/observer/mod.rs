@@ -9,6 +9,7 @@ mod distributed_storage;
 mod entity_cloning;
 mod runner;
 mod system_param;
+mod set;
 
 pub use centralized_storage::*;
 pub use condition::*;

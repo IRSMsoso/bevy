@@ -3694,6 +3694,17 @@ category = "ECS (Entity Component System)"
 wasm = true
 
 [[example]]
+name = "observer_ordering"
+path = "examples/ecs/observer_ordering.rs"
+doc-scrape-examples = true
+
+[package.metadata.example.observer_ordering]
+name = "Observer Ordering"
+description = "Demonstrates ordering observers in relation to other observers"
+category = "ECS (Entity Component System)"
+wasm = true
+
+[[example]]
 name = "observer_propagation"
 path = "examples/ecs/observer_propagation.rs"
 doc-scrape-examples = true
